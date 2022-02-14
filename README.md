@@ -9,6 +9,8 @@ The current template can be used for scientific blogs as it supports a wide vari
 - References and citations
 - Embed gifs and videos
 - Interactive components
+- Table of contents
+- Similar articles 
 
 Other important features:
 
