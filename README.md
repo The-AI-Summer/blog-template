@@ -1,12 +1,5 @@
 # Scientific blog template based on AI Summer
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/black0017/MedicalZooPytorch/blob/master/Quickstart_MedicalZoo.ipynb)
-![](https://img.shields.io/github/license/black0017/MedicalZooPytorch)
-
 ![example-home](./examples/example-home.png)
 
 The current template can be used for scientific blogs as it supports a wide variety of necessary components such as:
@@ -99,7 +92,7 @@ If you **really** like this repository and find it useful, please consider (★)
 ## Contributing 
 You are more than welcome to contribute to the template by adding more features, fixing bugs and more. Remember that this template was created by machine learning engineers and not web developers, so our sincere apologies in advance 😂
 
-If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. More info on the [contribute directory](./CONTRIBUTE.md).
+If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. More info [here](./CONTRIBUTE.md).
 
 ## Current team
 
