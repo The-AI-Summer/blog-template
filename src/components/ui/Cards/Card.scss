@@ -1,0 +1,32 @@
+@import '../../../styles/responsive';
+
+.card {
+    cursor: pointer;
+    margin: 15px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s linear, opacity 0.2s linear;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+
+    &--horizontal {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+        @media only screen and (max-width: $breakpoint-sm) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &--vertical {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &:hover {
+        box-shadow: 0 0 64px rgba(0, 0, 0, 0.22);
+    }
+}

@@ -1,0 +1,27 @@
+@import './variables';
+
+$light-theme: (
+    background-color: #fff,
+    background-secondary-color: $background-gray,
+    text-color: $secondary,
+    button-text-color: #425066,
+    button-color: $primary,
+    hover-link: $primary
+);
+$dark-theme: (
+    background-color: #222,
+    background-secondary-color: $background-gray,
+    text-color: #ddd,
+    button-text-color: #aaa,
+    button-color: $primary,
+    hover-link: $primary
+);
+
+$theme: $light-theme;
+
+$background-color: map-get($theme, background-color);
+$background-secondary-color: map-get($theme, background-secondary-color);
+$text-color: map-get($theme, text-color);
+$button-text-color: map-get($theme, button-text-color);
+$button-color: map-get($theme, button-color);
+$hover-link-color:map-get($theme, hover-link)

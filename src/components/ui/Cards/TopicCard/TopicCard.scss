@@ -1,0 +1,34 @@
+@import '../../../../styles/themes';
+
+.topic-card {
+    min-height: 350px;
+
+    a:hover{
+        color: $hover-link-color;
+    }
+
+    &__logo {
+        padding-top: 30px;
+        height: 25%;
+        flex: 0 0 auto;
+    }
+
+    &__resources {
+        flex-grow: 1;
+
+        &__item {
+            display: flex;
+
+            text-align: left;
+
+            svg {
+                flex: 0 0 10%;
+            }
+        }
+    }
+
+    &__more {
+        padding-bottom: 30px;
+        font-weight: 600;
+    }
+}

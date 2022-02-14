@@ -1,0 +1,77 @@
+@import '../../../../styles/responsive';
+@import '../../../../styles/themes';
+@import '../../../../styles/typography';
+
+// We can combine it with NavigationDrawer but I'm bored
+.nav-sidebar {
+    display: flex;
+    border-right: 1px solid $light-gray;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transform: translateX(-300px);
+    transition: transform 0.3s ease 0s;
+    background-color: $background-color;
+
+    scrollbar-width: 6px;
+    scrollbar-color: $background-gray $background-gray;
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: $background-gray;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: $gray;
+        border-radius: 10px;
+        border: 1px solid $gray;
+    }
+
+    &--active {
+        transform: translateX(0px);
+    }
+
+    &__content {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 51px;
+        width: 300px;
+        overflow-x: auto;
+        overflow-y: auto;
+        max-height: 95vh;
+
+        &__title {
+            padding: 30px 20px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: $bold;
+            color: $dark-gray;
+        }
+
+        &__item {
+            padding: 10px 20px 10px 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 13px;
+
+            &:hover {
+                background-color: $light-gray;
+                cursor: pointer;
+
+                a {
+                    color: #212121;
+                }
+            }
+
+            a {
+                border-bottom: none;
+            }
+        }
+    }
+}

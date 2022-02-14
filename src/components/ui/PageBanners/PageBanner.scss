@@ -1,0 +1,124 @@
+@import '../../../styles/themes';
+@import '../../../styles/responsive';
+
+.page-banner,
+.start-here-banner,
+.books-courses-banner {
+    min-height: 540px;
+    margin-top: 50px;
+    background-color: $background-secondary-color;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+
+        &__details {
+            flex: 1 1 50%;
+            padding: 6% 4% 0 15%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            @media only screen and (max-width: $breakpoint-md) {
+                & {
+                    flex: 1 1 100%;
+                    padding: 10% 20% 0 20%;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+
+        &__image {
+            flex: 1 1 50%;
+            padding: 6% 0 0 6%;
+            display: block;
+            min-width: 200px;
+
+            @media only screen and (max-width: $breakpoint-lg) {
+                & {
+                    padding: 10% 0 0 6%;
+                }
+            }
+
+            @media only screen and (max-width: $breakpoint-md) {
+                & {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.page-banner-withcircularimage {
+    min-height: 400px;
+    margin-top: 50px;
+    background-color: $secondary;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        &__details {
+            max-width: 800px;
+            margin-bottom: 100px;
+
+            @media only screen and (max-width: $breakpoint-lg) {
+                & {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        &__image {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: $white;
+
+            .gatsby-image-wrapper {
+                width: 60%;
+                height: auto;
+                margin: auto auto;
+            }
+
+            @media only screen and (max-width: $breakpoint-lg) {
+                & {
+                    margin: 0 0 40px 0;
+                }
+            }
+        }
+    }
+}
+
+.page-banner-single-item {
+    min-height: 400px;
+    margin-top: 50px;
+    background-color: $secondary;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        &__details {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        &__image {
+            display: none;
+        }
+    }
+}

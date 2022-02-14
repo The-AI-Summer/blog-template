@@ -1,0 +1,18 @@
+.carousel {
+    &__slide {
+        visibility: hidden;
+        position: absolute;
+
+        .gatsby-image-wrapper {
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+
+        &--active {
+            visibility: visible;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

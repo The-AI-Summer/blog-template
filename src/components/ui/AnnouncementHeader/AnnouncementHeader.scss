@@ -1,0 +1,139 @@
+@import '../../../styles/themes';
+@import '../../../styles/variables';
+@import '../../../styles/responsive';
+
+.announcement-header {
+    background-color: $secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 60px;
+    z-index: 180;
+    margin-bottom: 60px;
+
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            top: 52px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-md) {
+        & {
+            top: 46px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        position: relative;
+        z-index: 100;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            p {
+                padding: 5px;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+        &__button {
+            padding: 4px 16px;
+            margin-left: 40px;
+
+            @media only screen and (max-width: $breakpoint-md) {
+                & {
+                    padding: 4px 10px;
+                }
+            }
+
+            @media only screen and (max-width: $breakpoint-sm) {
+                & {
+                    margin-left: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+.announcement-header--no-sticky {
+    background-color: $secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    padding-top: 60px;
+    min-height: 140px;
+
+
+
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            top: 52px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-md) {
+        & {
+            top: 46px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            p {
+                padding: 5px;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+        &__button {
+            padding: 4px 16px;
+            margin-left: 40px;
+
+            @media only screen and (max-width: $breakpoint-md) {
+                & {
+                    padding: 4px 10px;
+                }
+            }
+
+            @media only screen and (max-width: $breakpoint-sm) {
+                & {
+                    margin-left: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

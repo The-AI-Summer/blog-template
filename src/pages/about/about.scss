@@ -1,0 +1,39 @@
+@import '../../styles/themes';
+
+.about-author-block,
+.about-block {
+    align-items: center;
+    text-align: left;
+    a {
+        text-decoration: underline;
+    }
+
+    .external-link {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+.about-author-block__socials {
+    display: flex;
+    align-self: flex-end;
+
+    &__item {
+        padding-right: 20px;
+    }
+}
+
+.about_team__learn-more {
+    color: $primary;
+    text-decoration: none !important;
+}
+
+.faq-section {
+    h2 {
+        text-align: center;
+    }
+    a {
+        color: $link-color-blog;
+        text-decoration: none;
+    }
+}

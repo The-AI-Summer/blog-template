@@ -1,0 +1,16 @@
+faq:
+    - question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl libero, pretium ut volutpat sed, congue ut urna?
+      answer: '<p>
+              In hac habitasse platea dictumst. Mauris vel elementum velit, vitae viverra diam. Maecenas quis ante nunc. Integer tristique et quam nec semper. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              </p>
+              '
+    - question: Curabitur fermentum pulvinar sollicitudin.?
+      answer: '<p>
+                uis eros nulla, aliquet ut ligula non, rutrum dapibus odio. Ut placerat fermentum nisl, at lobortis purus dapibus et. Mauris risus nunc, malesuada varius ante at, bibendum vehicula diam. Mauris nisl felis, gravida id ipsum ac, maximus gravida massa.
+                </p>
+                '
+    - question: Sed mattis cursus libero et convallis.?
+      answer: '<p>
+            Sed nec ante odio. Pellentesque tincidunt rutrum lorem sit amet semper. Sed vel condimentum enim, id tempus tellus. Sed ac ligula vel tortor vehicula tincidunt. Fusce risus ex, bibendum quis pellentesque vitae, placerat non nisi. Nam egestas auctor neque, quis rutrum urna condimentum at. In felis justo, tempus dictum quam sit amet, fermentum commodo augue. Morbi lorem eros, pharetra sed odio eget, faucibus semper elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce convallis, dolor at consequat gravida, diam ipsum porta risus, eu tristique augue erat sit amet purus. Cras sed tellus eu orci luctus tempor.
+            </p>
+            '

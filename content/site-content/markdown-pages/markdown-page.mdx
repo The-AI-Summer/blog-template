@@ -1,0 +1,33 @@
+---
+layout: MarkdownPage
+title: 'Markdown Page'
+description: 'Example of a custom page created with markdown instead of JSX'
+image: example-image.jpg
+suburl: markdown-page/
+---
+
+# Markdown Pages are also supported
+
+Instead of creating the pages with React and JSX, you can instead use typical markdown. That of course limits the UI flexibility but it can be a good and easy alternative.
+
+Simply create an mdx file add to the /site-content/ folder and it will be automatically converted to a page.
+
+All typical markdown commands are supported.
+
+Note that markdown pages won't be considered as posts. Posts are live only in the `posts` folder.
+
+## Code blocks
+
+```python
+import main
+```
+
+## Latex equations
+
+$$
+y=\sum_{N=1}^{10} x = 100
+$$
+
+This is a citation [^1]
+
+[^1]: https://theaisummer.com

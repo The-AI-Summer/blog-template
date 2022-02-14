@@ -1,0 +1,192 @@
+@import '../../styles/responsive';
+@import '../../styles/typography';
+@import '../../styles/themes';
+@import './blog-typography.scss';
+
+.blog-page {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(600px, 2fr) minmax(
+            200px,
+            1fr
+        );
+    grid-gap: 20px;
+
+    &__content {
+        grid-column: 2;
+        margin: 20px;
+
+        .twitter-tweet {
+            margin: 0 auto;
+        }
+
+        .video-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+
+            &::after {
+                padding-top: 56.25%;
+                display: block;
+                content: '';
+            }
+
+            & iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .self-hosted-video-container {
+            video {
+                display: block;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+
+        table {
+            text-align: center;
+            padding: 0;
+            margin: 0 auto;
+            overflow-x: auto;
+            max-width: 100%;
+
+            tr {
+                border-top: 1px solid #cccccc;
+                background-color: white;
+                margin: 0;
+                padding: 0;
+            }
+            tr:nth-child(2n) {
+                background-color: #f8f8f8;
+            }
+
+            tr th {
+                font-weight: bold;
+                border: 1px solid #cccccc;
+                text-align: center;
+                margin: 0;
+                padding: 6px 13px;
+            }
+
+            tr td {
+                border: 1px solid #cccccc;
+                text-align: center;
+                margin: 0;
+                padding: 6px 13px;
+            }
+
+            tr:nth-child(2n) {
+                background-color: #f8f8f8;
+            }
+
+            tr th :first-child,
+            tr td :first-child {
+                margin-top: 0;
+            }
+            tr th :last-child,
+            tr td :last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .inline-newsletter-form {
+            background-color: #e1f5fe;
+            text-align: center;
+            border-radius: 10px;
+            padding: 16px 40px;
+
+            .mauticform-wrapper {
+                align-items: center;
+            }
+        }
+
+        .footnotes {
+            hr {
+                opacity: 0;
+            }
+            li {
+                line-height: 1.6;
+                padding-bottom: 10px;
+                font: $font-family;
+                color: $black;
+
+                .footnote-backref {
+                    font-size: 80%;
+                }
+            }
+        }
+    }
+
+    &__left-sidebar {
+        grid-column: 1;
+        max-width: 300px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        & > * {
+            position: sticky;
+        }
+    }
+
+    &__right-sidebar {
+        grid-column: 3;
+        max-width: 260px;
+        margin-top: 40px;
+
+        & > * {
+            position: sticky;
+            top: 80px;
+        }
+    }
+
+    // @media only screen and (max-width: $breakpoint-lg) {
+    //     & {
+    //         grid-template-columns: minmax(260px, 1fr) minmax(600px, auto);
+
+    //         &__content {
+    //             grid-column: 2;
+    //         }
+
+    //         &__right-sidebar {
+    //             display: none;
+    //         }
+    //     }
+    // }
+
+    //keep only content on large and below (doesn't seems nice when navsidebar is missing)
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            grid-template-columns: minmax(200px, 1fr);
+            padding: 20px;
+
+            &__content {
+                grid-column: 1;
+            }
+
+            &__right-sidebar,
+            &__left-sidebar {
+                display: none;
+            }
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            &__content {
+                .katex-display > .katex {
+                    display: inline-block;
+                    white-space: nowrap;
+                    max-width: 100%;
+                    overflow-x: auto;
+                    text-align: initial;
+                    overflow-y: hidden;
+                }
+            }
+        }
+    }
+}

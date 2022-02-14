@@ -1,0 +1,48 @@
+@import '../../../styles/themes';
+@import '../../../styles/typography';
+
+.footer {
+    background-color: $secondary;
+    // margin-top: 130px;
+
+
+    &__block {
+        color: $white;
+        font-size:14px;
+        padding: 20px 0px;
+        align-items: center;
+
+        a {
+            color: $white;
+        }
+
+        &__title {
+            font-weight: $semi-bold;
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+
+        &__item {
+            padding-bottom: 5px;
+
+            &:after {
+                content: '';
+                display: block;
+                border-bottom: 1px solid $white;
+                transition: transform 0.2s ease-in-out;
+                transform: scaleX(0);
+            }
+            &:hover:after {
+                transform: scaleX(1);
+            }
+
+            &__social{
+                &--discord{
+                    padding-top: 2px;
+                }
+            }
+
+          
+        }
+    }
+}

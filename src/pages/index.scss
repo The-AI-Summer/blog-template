@@ -1,0 +1,109 @@
+@import '../styles/themes';
+@import '../styles/responsive';
+
+.section-text {
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center;
+
+    &--light {
+        max-width: 55%;
+        margin: 40px auto;
+        text-align: center;
+        color: $white;
+    }
+}
+
+.what-is-section {
+    background-color: $background-secondary-color;
+    padding-top: 0 !important;
+
+    a {
+        color: $primary;
+    }
+}
+
+.posts-per-topic-section {
+    // background-color: $background-secondary-color;
+    text-align: center;
+
+    .see-all-button {
+        margin-top: 30px;
+        padding: 8px 22px;
+        display: inline-block;
+    }
+}
+
+.newsletter-section {
+    background-color: $secondary;
+    text-align: center;
+
+    .mauticform-wrapper {
+        align-items: center;
+    }
+
+    .discord-button {
+        margin-top: 30px;
+        padding: 8px 22px;
+        display: inline-block;
+    }
+}
+
+.books-courses-card {
+    
+    margin-bottom: 40px;
+    
+    a {
+        color: $primary;
+    }
+
+    &__details {
+        flex: 0 1 50%;
+        text-align: left;
+        padding: 40px 40px 40px 40px;
+
+        @media only screen and (max-width: $breakpoint-sm) {
+            order: 2;
+        }
+    }
+
+    &__image {
+        flex: 0 1 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 40px 40px 40px;
+
+        .gatsby-image-wrapper {
+            width: 80%;
+        }
+    }
+
+    &__image--course-type {
+        flex: 0 1 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px 20px 20px;
+
+        .gatsby-image-wrapper {
+            width: 100%;
+        }
+    }
+
+    // &__block--book-type {
+    //     padding-bottom: 50px;
+
+    //     &__details {
+    //
+    //     }
+    //     .gatsby-image-wrapper:first-child {
+    //         margin: 0 15% 0 15%;
+    //     }
+    // }
+}
+
+.what-is-section,
+.more-articles-section {
+    text-align: center;
+}

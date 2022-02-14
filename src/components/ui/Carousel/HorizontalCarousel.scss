@@ -1,0 +1,53 @@
+.horizontal-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 500px;
+
+    &__top-shadow {
+        z-index: 1;
+        height: 40px;
+        width: 80%;
+        background-image: linear-gradient(
+            to bottom,
+            #f1f1f1f1 30%,
+            transparent 70%
+        );
+    }
+    &__bottom-shadow {
+        z-index: 1;
+        height: 40px;
+        width: 80%;
+        background-image: linear-gradient(
+            to top,
+            #f1f1f1f1 30%,
+            transparent 70%
+        );
+    }
+
+    &__slide--first {
+        animation: drop 200ms cubic-bezier(0.71, 0.1, 0.28, 0.91);
+        opacity: 1;
+    }
+
+    &__slide--last {
+        height: 0;
+        opacity: 0;
+        animation: disappear 200ms linear;
+        pointer-events: none;
+    }
+}
+
+@keyframes drop {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes disappear {
+    from {
+        height: 80px;
+        opacity: 1;
+    }
+}

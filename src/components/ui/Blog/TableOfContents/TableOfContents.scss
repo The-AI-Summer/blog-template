@@ -1,0 +1,22 @@
+@import '../../../../styles/variables';
+
+.toc {
+    border-left: 2px solid $primary;
+
+    ul {
+        list-style-type: none;
+        padding-inline-start: 16px;
+    }
+
+    &__item__link {
+        font-size: 12px;
+        color: black;
+        border-bottom: none;
+
+        &--active {
+            font-size: 12px;
+            color: $link-color-blog;
+            border-bottom: none;
+        }
+    }
+}

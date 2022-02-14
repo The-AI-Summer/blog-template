@@ -1,0 +1,49 @@
+authors:
+    - name: Author 1
+      image: ../../assets/images/authors/author.png
+      facebook: 'facebook_url'
+      twitter: 'twitter_url'
+      linkedin: 'linkedin_url'
+      website: 'website_url'
+      github: 'github_url'
+      url: author/Author-1/
+      short_description: '
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie ex sit amet laoreet laoreet. Vivamus vitae nisi ante. Vivamus enim nisl, efficitur ut scelerisque et, fringilla nec nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam bibendum auctor elit non malesuada. Proin non sodales erat. Nulla at mi vitae nibh vulputate porttitor.
+            </p>
+          '
+      description: '
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie ex sit amet laoreet laoreet. Vivamus vitae nisi ante. Vivamus enim nisl, efficitur ut scelerisque et, fringilla nec nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam bibendum auctor elit non malesuada. Proin non sodales erat. Nulla at mi vitae nibh vulputate porttitor.
+          </p>
+          <p>
+          In cursus, nisi id pulvinar vestibulum, orci nulla venenatis est, ut porta lectus sapien vel sem. Curabitur lobortis varius mauris eget tincidunt. Etiam vel ligula ac ante mattis iaculis sit amet vitae urna. Nullam et interdum purus. Nunc metus nisi, auctor in ex sit amet, feugiat ultricies ligula. Cras tristique, lectus eu hendrerit cursus, sapien arcu hendrerit libero, et dictum tortor nunc at turpis. Quisque tincidunt urna vitae urna euismod, eget mollis nulla viverra. Proin rhoncus erat at turpis eleifend ornare.
+          </p>
+          <p>
+          Suspendisse consequat cursus mauris vitae volutpat. Sed id faucibus augue. Vestibulum id tellus ut ex iaculis malesuada. Aliquam scelerisque mauris nec est posuere fringilla. Maecenas vestibulum venenatis faucibus. Nullam congue dolor non lorem pulvinar, mollis molestie elit dignissim. Aenean pellentesque risus ut porta porta. Vivamus sodales nisi eu blandit pellentesque. Sed varius, neque eget congue tristique, tellus turpis bibendum ligula, in facilisis nunc mi sed purus. Quisque condimentum, urna ac rhoncus pretium, eros metus dapibus erat, facilisis consequat sapien nulla viverra magna.
+          </p>
+          '
+    - name: Author 2
+      image: ../../assets/images/authors/author.png
+      facebook: 'facebook_url'
+      twitter: 'twitter_url'
+      linkedin: 'linkedin_url'
+      website: 'website_url'
+      github: 'github_url'
+      url: author/Author-2/
+      short_description: '
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie ex sit amet laoreet laoreet. Vivamus vitae nisi ante. Vivamus enim nisl, efficitur ut scelerisque et, fringilla nec nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam bibendum auctor elit non malesuada. Proin non sodales erat. Nulla at mi vitae nibh vulputate porttitor.
+            </p>
+          '
+      description: '
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie ex sit amet laoreet laoreet. Vivamus vitae nisi ante. Vivamus enim nisl, efficitur ut scelerisque et, fringilla nec nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam bibendum auctor elit non malesuada. Proin non sodales erat. Nulla at mi vitae nibh vulputate porttitor.
+          </p>
+          <p>
+          In cursus, nisi id pulvinar vestibulum, orci nulla venenatis est, ut porta lectus sapien vel sem. Curabitur lobortis varius mauris eget tincidunt. Etiam vel ligula ac ante mattis iaculis sit amet vitae urna. Nullam et interdum purus. Nunc metus nisi, auctor in ex sit amet, feugiat ultricies ligula. Cras tristique, lectus eu hendrerit cursus, sapien arcu hendrerit libero, et dictum tortor nunc at turpis. Quisque tincidunt urna vitae urna euismod, eget mollis nulla viverra. Proin rhoncus erat at turpis eleifend ornare.
+          </p>
+          <p>
+          Suspendisse consequat cursus mauris vitae volutpat. Sed id faucibus augue. Vestibulum id tellus ut ex iaculis malesuada. Aliquam scelerisque mauris nec est posuere fringilla. Maecenas vestibulum venenatis faucibus. Nullam congue dolor non lorem pulvinar, mollis molestie elit dignissim. Aenean pellentesque risus ut porta porta. Vivamus sodales nisi eu blandit pellentesque. Sed varius, neque eget congue tristique, tellus turpis bibendum ligula, in facilisis nunc mi sed purus. Quisque condimentum, urna ac rhoncus pretium, eros metus dapibus erat, facilisis consequat sapien nulla viverra magna.
+          </p>
+          '

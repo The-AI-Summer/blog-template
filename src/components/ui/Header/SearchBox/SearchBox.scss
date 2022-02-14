@@ -1,0 +1,68 @@
+@import '../../../../styles/themes';
+@import '../../../../styles/typography';
+
+.search-box--small {
+    width: 100%;
+    height: 100%;
+    background: $light-gray;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+
+    &__input {
+        outline: none;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border:none;
+        outline: none;
+        padding-left: 8px;
+        font: 18px $font-family;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__icon{
+       display: flex;
+       align-items: center;
+       padding-left: 8px;
+
+    }
+}
+
+.search-box--big {
+    width: 100%;
+    height: 60px;
+    background: $light-gray;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+
+    &__input {
+        outline: none;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border:none;
+        outline: none;
+        padding-left: 8px;
+        font: 18px $font-family;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__icon{
+       display: flex;
+       align-items: center;
+       padding-left: 8px;
+
+    }
+}

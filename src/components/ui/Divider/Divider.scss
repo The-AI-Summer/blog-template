@@ -1,0 +1,13 @@
+@import '../../../styles/variables';
+
+.divider {
+    &--horizontal {
+        border-bottom: 2px solid $light-gray;
+        margin:auto 10%;
+    }
+    &--vertical {
+        border-top: 1px solid $light-gray;
+        height: 80%;
+    }
+
+}

@@ -1,0 +1,59 @@
+@import '../../../styles/responsive';
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+//children classes
+.group-2 {
+    flex-basis: calc(100% / 2 - 30px);
+    flex-shrink: 0;
+    max-width: calc(100% / 2 - 30px);
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            flex-basis: calc(100% - 30px);
+            max-width: calc(100% - 30px);
+        }
+    }
+}
+.group-3 {
+    flex-basis: calc(100% / 3 - 30px);
+    flex-shrink: 0;
+    max-width: calc(100% / 3 - 30px);
+
+    @media only screen and (max-width: $breakpoint-md) {
+        & {
+            flex-basis: calc(100% - 30px);
+            max-width: calc(100% - 30px);
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            flex-basis: calc(100% - 30px);
+            max-width: calc(100% - 30px);
+        }
+    }
+}
+.group-4 {
+    flex-basis: calc(100% / 4 - 30px);
+    flex-shrink: 0;
+    max-width: calc(100% / 4 - 30px);
+
+    @media only screen and (max-width: $breakpoint-md) {
+        & {
+            flex-basis: calc(100% / 2 - 30px);
+            max-width: calc(100% / 2 - 30px);
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            flex-basis: calc(100% - 30px);
+            max-width: calc(100% - 30px);
+        }
+    }
+}

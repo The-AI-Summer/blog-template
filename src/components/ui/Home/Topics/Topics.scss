@@ -1,0 +1,22 @@
+.topic-card-light {
+    min-height: 250px;
+
+    &:hover {
+        .topic-card-light__logo {
+            transform: scale(1.2);
+        }
+    }
+
+    &__logo {
+        padding-top: 20px;
+        height: 25%;
+        flex: 0 0 auto;
+        transition: transform 0.2s linear;
+    }
+
+    &__desc {
+        flex-grow: 1;
+        padding: 0 20px 0 20px;
+
+    }
+}

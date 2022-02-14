@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $font-family;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: $semi-bold;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: $bold;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: $bold;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: $bold;
+    line-height: 26px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: $medium;
+    line-height: 26px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: $medium;
+    line-height: 26px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: $medium;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+    font-size: 16x;
+    font-weight: $medium;
+    line-height: 22px;
+}
+
+@font-face {
+    font-family: 'Spartan league';
+    src: url('../../content/assets/fonts/LeagueSpartan-Bold.woff')
+        format('woff');
+}

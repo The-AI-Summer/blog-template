@@ -1,0 +1,142 @@
+@import '../../styles/variables';
+@import '~katex/dist/katex.min.css';
+// https://material.io/design/typography/the-type-system.html#type-scale
+
+//TODO: to be revised
+
+.blog-page__content {
+    h1 {
+        font-size: 44px;
+        font-weight: $bold;
+        color: $black;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: $semi-bold;
+        color: $black;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 400;
+        font-weight: $semi-bold;
+        color: $black;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: $medium;
+        letter-spacing: 0.15px;
+        color: $dark-gray;
+    }
+
+    h5 {
+        font-size: 17px;
+        letter-spacing: 0.15px;
+        color: $black;
+    }
+
+    p {
+        margin-bottom: 1.25rem;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 1.6;
+        color: $black;
+
+        @media only screen and (max-width: $breakpoint-sm) {
+            text-align: left;
+        }
+    }
+
+    a {
+        color: #1a73e8;
+        text-decoration: none;
+    }
+
+    ol,
+    ul {
+        li {
+            font-size: 20px;
+        }
+    }
+    blockquote {
+        background-color: #e1f5fe;
+        color: $secondary;
+        border-radius: 10px;
+        padding: 16px 40px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    pre {
+        text-align: left;
+        padding: 24px 32px;
+        border-radius: 10px;
+        overflow: auto;
+        font-size: 16px;
+
+        & .token-line {
+            height: 24px;
+        }
+    }
+
+    code {
+        background-color: rgb(246, 248, 250); //from github theme
+        color: rgb(0, 0, 159); //from github theme
+        word-break: break-word;
+        padding: 4px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+
+    .katex {
+        span {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    span + em,
+    img + em,
+    iframe + em {
+        font-size: 14px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+
+        a {
+            color: $text-color;
+            border-bottom: 1px dashed $text-color;
+        }
+    }
+
+    iframe,
+    img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        @media only screen and (max-width: $breakpoint-sm) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+
+    
+
+
+
+    .affiliate-disclosure {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+}

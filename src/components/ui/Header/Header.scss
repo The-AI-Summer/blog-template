@@ -1,0 +1,229 @@
+@import '../../../styles/responsive';
+@import '../../../styles/themes';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.06);
+    background-color: $background-color;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    font-size: 14px;
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            justify-content: space-between;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            padding: 12px 12px;
+        }
+    }
+
+    &__item {
+        height: 100%;
+
+        &__secondary {
+            padding: 0px 16px;
+            white-space: nowrap;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            @media only screen and (max-width: 1700px) {
+                //hide on ipad pro
+                & {
+                    display: none;
+                }
+            }
+
+            &__button {
+                height: 30px;
+                padding: 8px 4px;
+
+                @media only screen and (max-width: $breakpoint-md) {
+                    & {
+                        padding: 4px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__hamburger-icon {
+        display: none;
+        padding: 0 10px;
+        cursor: pointer;
+
+        @media only screen and (max-width: $breakpoint-lg) {
+            & {
+                display: block;
+            }
+        }
+
+        @media only screen and (max-width: $breakpoint-sm) {
+            & {
+               order:1;
+            }
+        }
+    }
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 68px;
+
+    &__item {
+        margin: 0 2vw 0 0;
+
+        a {
+            white-space: nowrap;
+        }
+
+        // min-width: 80px;
+
+        &:after {
+            content: '';
+            display: block;
+            border-bottom: solid 2px $primary;
+            transition: transform 0.2s ease-in-out;
+            transform: scaleX(0);
+        }
+        &:hover:after {
+            transform: scaleX(1);
+        }
+
+        &__link {
+            display: flex;
+            a {
+                white-space: nowrap;
+            }
+
+            &__icon {
+                padding-left: 10px;
+            }
+
+            :hover > & {
+                &__icon {
+                    padding-left: 0;
+                    padding-right: 10px;
+                    -webkit-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                    -moz-transform: rotate(180deg);
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            display: none;
+        }
+    }
+}
+
+.search-nav {
+    margin-left: 12px;
+    flex: 0 0 auto;
+    width: 200px;
+    height: 38px;
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            display: none;
+        }
+    }
+}
+
+.newsletter-nav {
+    margin-left: 12px;
+
+    @media only screen and (max-width: $breakpoint-lg) {
+        & {
+            margin-left: 0px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+            display: none;
+        }
+    }
+
+    &__button {
+        height: 30px;
+        padding: 8px 22px;
+
+        @media only screen and (max-width: $breakpoint-md) {
+            & {
+                padding: 4px 10px;
+            }
+        }
+    }
+}
+
+.dropdown {
+    position: relative;
+
+    &__wrapper {
+        position: absolute;
+        padding-top: 21px;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top;
+    }
+}
+
+.dropdown:hover .dropdown__wrapper {
+    transition: all 0.3s ease 0.1s;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.dropdown-content {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+        0 2px 6px 2px rgba(60, 64, 67, 0.15),
+        inset 0 4px 6px -4px rgba(154, 160, 166, 0.5);
+    padding: 10px 20px 10px 20px;
+    left: -10px;
+    white-space: nowrap;
+
+    &__item {
+        padding: 6px 0;
+
+        a {
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 200px;
+
+    @media only screen and (max-width: $breakpoint-md) {
+        & {
+            width: 150px;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-sm) {
+        & {
+           order:2
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../../../styles/variables';
+
+.posts-per-topic__tabs {
+    background-color: #fff;
+
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s linear, opacity 0.2s linear;
+    border-radius: 10px;
+
+    &__card{
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.2s linear, opacity 0.2s linear;
+        border-radius: 10px;
+
+        &:hover {
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+   
+}

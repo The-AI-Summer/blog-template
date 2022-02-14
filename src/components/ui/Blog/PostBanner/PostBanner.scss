@@ -1,0 +1,88 @@
+@import '../../../../styles/responsive';
+@import '../../../../styles/themes';
+@import '../../../../styles/typography';
+
+.post-banner {
+    min-height: 440px;
+    margin-top: 50px;
+
+    &__content {
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__details {
+            flex: 1 1 50%;
+            padding: 2% 4% 0 6%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h1 {
+                font-size: 40px;
+                font-weight: $bold;
+                line-height: 52px;
+            }
+            &__post-details {
+                span,
+                a {
+                    padding-right: 10px;
+                    font-size: 18px;
+                }
+                &__author {
+                    color: $text-color;
+                    font-weight: 700;
+                }
+                padding-bottom: 20px;
+            }
+
+            &__topics {
+                display: flex;
+                flex-wrap: wrap;
+                &__tag {
+                    background-color: $gray;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                    padding: 4px 10px 4px 10px;
+
+                    color: $dark-gray;
+                }
+            }
+
+            @media only screen and (max-width: $breakpoint-lg) {
+                & {
+                    flex: 1 1 100%;
+                    padding: 10% 10% 0 10%;
+                    align-items: flex-start;
+                    text-align: start;
+                    order: 1;
+                }
+            }
+        }
+        &__featured-image {
+            flex: 1 1 50%;
+            display: block;
+            padding: 3% 0 0 0;
+
+            @media only screen and (max-width: $breakpoint-lg) {
+                & {
+                    order: 2;
+                    flex: 1 1 100%;
+                    padding: 10% 10% 0 10%;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+
+            .gatsby-image-wrapper {
+                border-radius: 20px;
+                // max-height: 400px;
+                max-width: 800px;
+                overflow: hidden;
+                box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+                transition: box-shadow 0.2s linear, opacity 0.2s linear;
+            }
+        }
+    }
+}

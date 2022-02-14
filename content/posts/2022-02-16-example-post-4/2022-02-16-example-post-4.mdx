@@ -1,0 +1,114 @@
+---
+layout: BlogPage
+title: 'Example Blog Post 4'
+description: A sample blog post supporting latex, code blocks, react components and more
+image: example-image.jpg
+tags: [Topic 1, Topic 2, Topic 3]
+author: [Author 1]
+publishedAt: '2022-02-16'
+modifiedAt: '2022-02-16'
+suburl: example-post-4/
+---
+
+Articles are written in [MDX](https://mdxjs.com/). MDX allows to combine standard markdown with JSX, so that you can import react components and use them in your markdown.
+
+All typical markdown syntax is supported, including:    
+
+## Blockquotes
+
+> This is a blockquote.
+
+## Images with caption
+
+![example-image](example-image.jpg)
+*Source:[AI Summer](theaisummer.com)*
+
+
+## Code Blocks
+
+Inline code is represented as `import python`
+
+Display code blocks example:
+
+```python
+import python
+
+def main():
+    print("Hello World")
+```
+
+Code blocks are highlighted with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer)
+
+## Latex
+
+Inline latex is rendered using one dollar sign $x=u-z$ while display latex required two dollars signs following the below format:
+
+$$
+x=u-z
+$$
+
+## Bibliography
+
+Citations can be added as markdown footnotes [^1]
+
+[^1]: This is a citation.
+
+## Emded videos ans gifs
+
+Embed videos can be imported as iframe. For better responsiveness, iframes can be wrapped in a `<div className="video-container"></div> `
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Custom components
+
+MDX enable us to build custom components and insert them directly in the markdown. All imported components must be declared in the `BlogPage` component. Examples of built components so far include:
+
+### Tweet
+
+<TwitterTweetEmbed tweetId={'1492138217386217473'} />
+
+### Tabs
+
+<Tabs size={3}>
+<Tab label="Python">
+
+```python
+
+def main():
+    print("Hello World")
+
+```
+
+</Tab>
+
+<Tab label="Go">
+
+```go
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, world.")
+}
+
+
+```
+
+</Tab>
+
+<Tab label="C">
+
+```c
+
+/* main.c */
+int main(int argc, char *argv[]) {
+
+}
+
+```
+
+</Tab>
+
+</Tabs>

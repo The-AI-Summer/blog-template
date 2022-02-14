@@ -1,0 +1,8 @@
+.page {
+    display: flex;
+    flex-direction: column;
+
+    .page-section:first-of-type{
+        padding: 10vh 2vw;
+    }
+}
