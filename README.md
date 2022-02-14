@@ -1,18 +1,19 @@
 # Scientific blog template based on AI Summer
 
+![example-home](./examples/example-home.png)
+
 The current template can be used for scientific blogs as it supports a wide variety of necessary components such as:
 
 - Latex rendering
 - Code blocks with highlighting
 - References and citations
 - Embed gifs and videos
-- Interactive components$
+- Interactive components
 
 Other important features:
 
 - Ability to filter and display posts by topic
 - Customizable author pages 
-- Customizable topic pages
 - 100% responsive
 - Pages can be created with standard React code or using Markdown
 - Search with a local index using [flexsearch](https://github.com/nextapps-de/flexsearch)
@@ -24,7 +25,10 @@ Other important features:
 - Sitemap generation
 
 
-The template is based on our [website](theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
+The template is based on our [website](https://theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
+
+![example-blog-1](./examples/example-blog-1.png)
+
 
 ### Important information
 
@@ -39,6 +43,8 @@ The template is based on our [website](theaisummer.com), which we strip from all
 - Forms can be created using [react-hook-form](https://react-hook-form.com/)
 - Annimations on scroll support
 
+
+![example-blog-2](./examples/example-blog-2.png)
 
 
 ### How to run the template
@@ -76,5 +82,7 @@ $ yarn build
 ```
 firebase deploy
 ```
+
+![example-home-2](./examples/example-home-2.png)
 
 
