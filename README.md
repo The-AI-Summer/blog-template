@@ -1,5 +1,12 @@
 # Scientific blog template based on AI Summer
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/black0017/MedicalZooPytorch/blob/master/Quickstart_MedicalZoo.ipynb)
+![](https://img.shields.io/github/license/black0017/MedicalZooPytorch)
+
 ![example-home](./examples/example-home.png)
 
 The current template can be used for scientific blogs as it supports a wide variety of necessary components such as:
@@ -86,3 +93,22 @@ firebase deploy
 ![example-home-2](./examples/example-home-2.png)
 
 
+## Support 
+If you **really** like this repository and find it useful, please consider (★) **starring** it, so that it can reach a broader audience of like-minded people. It would be highly appreciated :) !
+
+## Contributing 
+You are more than welcome to contribute to the template by adding more features, fixing bugs and more. Remember that this template was created by machine learning engineers and not web developers, so our sincere apologies in advance 😂
+
+If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. More info on the [contribute directory](./CONTRIBUTE.md).
+
+## Current team
+
+#### [Sergios Karagianakos](https://github.com/SergiosKar "Github page"), [Nikolas Adaloglou](https://github.com/black0017 "Github page") and [Ilias Papastatis](https://github.com/iliasprc "Github page") 
+
+## License 
+
+Copyright 2022, AI Summer.
+
+Licensed under the Apache License, Version 2.0
+
+See the [full license](./LICENSE).
