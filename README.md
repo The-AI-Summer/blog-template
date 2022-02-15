@@ -28,7 +28,7 @@ Other important features:
 
 ## See a live example in our [website](https://theaisummer.com)
 
-The template is based on [theaisummer.com]](https://theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
+The template is based on [theaisummer.com](https://theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
 
 ![example-blog-1](./examples/example-blog-1.png)
 
@@ -102,7 +102,7 @@ If you **really** like this repository and find it useful, please consider (★)
 ## Contributing and  Reporting Bugs
 You are more than welcome to contribute to the template by adding more features, fixing bugs and more. Remember that this template was created by machine learning engineers and not web developers, so our sincere apologies in advance 😂
 
-If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. More info [here](./CONTRIBUTE.md).
+If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. More info [here](./CONTRIBUTING.md).
 
 ## Current team
 
