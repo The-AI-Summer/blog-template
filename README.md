@@ -28,7 +28,7 @@ Other important features:
 
 ## See a live example in our [website](https://theaisummer.com)
 
-The template is based on [theaisummer.com]](https://theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
+The template is based on [theaisummer.com](https://theaisummer.com), which we strip from all the unecessary stuff in order to provide a minimal, ready-to-use but feature-rich framework for scientific blogs.
 
 ![example-blog-1](./examples/example-blog-1.png)
 
