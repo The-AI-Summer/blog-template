@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                         className="footer__block"
                     >
                         <a
-                            href="https://github.com/The-AI-Summer"
+                            href=""
                             className="footer__block__item__social"
                         >
                             <svg
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://www.twitter.com/theaisummer"
+                            href=""
                             className="footer__block__item__social"
                         >
                             <svg
@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://www.linkedin.com/company/ai-summer/"
+                            href=""
                             className="footer__block__item__social"
                         >
                             <svg
@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://www.facebook.com/AI-Summer-104358791110338"
+                            href=""
                             className="footer__block__item__social"
                         >
                             <svg
@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://discord.gg/2ezWq3r5hv"
+                            href=""
                             className="footer__block__item__social--discord"
                         >
                             <svg

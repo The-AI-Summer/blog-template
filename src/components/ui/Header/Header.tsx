@@ -101,7 +101,7 @@ const Header: React.FC = () => {
                 </nav>
 
                 <div className="header__item header__item__secondary">
-                    <a href="https://github.com/The-AI-Summer">
+                    <a href="">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
@@ -115,7 +115,7 @@ const Header: React.FC = () => {
                     </a>
                 </div>
                 <div className="header__item header__item__secondary">
-                    <a href="https://www.twitter.com/theaisummer">
+                    <a href="">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
@@ -129,7 +129,7 @@ const Header: React.FC = () => {
                     </a>
                 </div>
                 <div className="header__item header__item__secondary">
-                    <a href="https://www.linkedin.com/company/ai-summer/">
+                    <a href="">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
@@ -144,7 +144,7 @@ const Header: React.FC = () => {
                 </div>
 
                 <div className="header__item header__item__secondary">
-                    <a href="https://discord.gg/2ezWq3r5hv">
+                    <a href="">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 225 215"
