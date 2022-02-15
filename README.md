@@ -84,13 +84,13 @@ $ yarn build
 2) Preview the website
 
 ```
-yarn serve
+$ yarn serve
 ```
 
 3) Transfer the `public` folder to your hosting option of choice. For exammple, AI Summer is deployed on Firebase hosting, but any object storage will do just fine.
 
 ```
-firebase deploy
+$ firebase deploy
 ```
 
 ![example-home-2](./examples/example-home-2.png)
