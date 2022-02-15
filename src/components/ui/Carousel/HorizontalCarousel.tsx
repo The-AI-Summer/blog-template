@@ -53,7 +53,6 @@ const HorizontalCarousel: React.FC<HorizontalCarouselProps> = (
 
     return (
         <div className="horizontal-carousel">
-            {/* <div className="horizontal-carousel__top-shadow" /> */}
             {currents.actives.map((x, i) => {
                 const child = childrensArray[x];
                 return (
@@ -69,7 +68,6 @@ const HorizontalCarousel: React.FC<HorizontalCarouselProps> = (
                     </div>
                 );
             })}
-            {/* <div className="horizontal-carousel__bottom-shadow" /> */}
         </div>
     );
 };

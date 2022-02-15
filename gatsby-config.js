@@ -16,11 +16,17 @@ module.exports = {
         },
         'gatsby-plugin-typescript',
         'gatsby-plugin-react-helmet',
-        'gatsby-plugin-robots-txt',
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              host: 'https://BLOG_URL.com',
+              sitemap: 'https://BLOG_URL/sitemap.xml',
+            }
+          },
         {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
-                trackingIds: ['#GOOGLE_TAG_MANAER_ID#'],
+                trackingIds: ['#GOOGLE_TAG_MANAER_ID#']
             }
         },
         'gatsby-plugin-breakpoints',

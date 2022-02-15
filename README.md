@@ -80,7 +80,14 @@ $ yarn start
 $ yarn build
 ```
 
-2) Transfer the `public` folder to your hosting option of choice. For exammple, AI Summer is deployed on Firebase hosting, but any object storage will do just fine.
+
+2) Preview the website
+
+```
+yarn serve
+```
+
+3) Transfer the `public` folder to your hosting option of choice. For exammple, AI Summer is deployed on Firebase hosting, but any object storage will do just fine.
 
 ```
 firebase deploy

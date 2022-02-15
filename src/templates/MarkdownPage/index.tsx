@@ -6,9 +6,7 @@ import Container from '../../components/layout/Container/Container';
 import PageLayout from '../../components/layout/PageLayout/PageLayout';
 import PageSection from '../../components/layout/PageSection/PageSection';
 import CodeBlock from '../../components/ui/Blog/CodeBlock/CodeBlock';
-import Button from '../../components/ui/Button/Button';
 import Seo from '../../components/utils/Seo';
-import { default as Accent, default as ButtonType } from '../../globals';
 import './markdown-page.scss';
 
 interface MarkdownPageProps {
@@ -19,10 +17,7 @@ interface MarkdownPageProps {
 }
 
 const components = {
-    pre: CodeBlock,
-    Button,
-    Accent,
-    ButtonType
+    pre: CodeBlock
 };
 
 const MarkdownPage: React.FC<MarkdownPageProps> = (

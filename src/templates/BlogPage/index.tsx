@@ -16,7 +16,6 @@ import { TopicsDetailsSelector } from '../../components/utils/TopicDetailsSelect
 import './blog-page.scss';
 
 //TODO: links in blogs to the same website should be with gatsby links instead of <a> and if so, how?
-//TODO: make code highlighting more beautiful? check bash and python
 interface BlogPageProps {
     data: {
         mdx: Post;

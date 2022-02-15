@@ -14,16 +14,6 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = (props: CardProps) => {
-    // const onCardClick = (
-    //     event: React.MouseEvent<HTMLDivElement, MouseEvent>
-    // ) => {
-    //     // TODO check and fix why card (using the navigate function) can't open in new tab while <Link> can
-    //     if (props.onClickLink) {
-    //         event.preventDefault();
-    //         navigate(`/${props.onClickLink}`);
-    //     }
-    // }; //to avoid wrapping cards with <Link/>
-
     return (
         <Fragment>
             {(() => {
