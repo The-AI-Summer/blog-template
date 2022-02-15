@@ -66,7 +66,7 @@ $ yarn start
 
 ### What you need to do before deploying?
 
-- Update gatsby-config without your site information
+- Update `gatsby-config` with your site information
 - Upload your logos and icons in `assets/images/`
 - Update the `Seo.tsx` component
 - Update your themes in `styles/`
